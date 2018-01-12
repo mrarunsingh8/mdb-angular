@@ -1,0 +1,27 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-default" [containerInside]="false">
+    <logo>
+        <a class="logo navbar-brand" href="#">
+        	<img src="assets/theme/android-logo.png" height="30" class="d-inline-block align-top" alt=""> 
+        </a>    
+    </logo>
+    <links>
+        <ul class="navbar-nav mr-auto">
+
+            <li *ngFor="let menuItem of menuData" class="nav-item waves-light {{menuItem.isActive?'active':''}}" mdbRippleRadius>
+                <a class="nav-link" href="{{menuItem.url}}">{{menuItem.title}} <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item waves-light" mdbRippleRadius>
+                <a class="nav-link"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item waves-light" mdbRippleRadius>
+                <a class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item waves-light" mdbRippleRadius>
+                <a class="nav-link"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+    </links>
+</mdb-navbar>
+<!-- Main -->
