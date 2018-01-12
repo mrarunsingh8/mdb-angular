@@ -48,7 +48,7 @@
     "zone.js": "0.8.x"
   },
   "devDependencies": {
-    "@angular/cli": "1.5.0",
+    "@angular/cli": "^1.6.4",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
     "@types/jasmine": "2.5.38",
@@ -59,9 +59,9 @@
     "karma": "~1.4.1",
     "karma-chrome-launcher": "~2.0.0",
     "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "karma-coverage-istanbul-reporter": "^0.2.0",
     "protractor": "~5.1.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
