@@ -18,6 +18,7 @@ import { ContactComponent } from './template/page/contact/contact.component';
 import { FeaturedProductSlideComponent } from './template/page/featured-product-slide/featured-product-slide.component';
 import { FooterComponent } from './template/partial/footer/footer.component';
 import { HeaderComponent } from './template/partial/header/header.component';
+import { ProductListingComponent } from './product/product-listing/product-listing.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HeaderComponent } from './template/partial/header/header.component';
     FeaturedProductSlideComponent,
     FooterComponent,
     HeaderComponent,
+    ProductListingComponent,
   ],
   imports: [
     BrowserModule,

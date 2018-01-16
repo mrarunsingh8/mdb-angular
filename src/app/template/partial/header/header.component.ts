@@ -19,6 +19,7 @@ export class HeaderComponent implements OnInit {
 		{url:'about', title:'About', isActive:false},
 		{url:'faq', title:'Faq', isActive:false},
 		{url:'contact-us', title:'Contact Us', isActive:false},
+		{url:'product', title:'Product', isActive:false},
 	];
 	constructor(private activeRoute: ActivatedRoute) {
 		this.setActivePath();
