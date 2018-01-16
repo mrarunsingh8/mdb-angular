@@ -19,6 +19,7 @@ import { FeaturedProductSlideComponent } from './template/page/featured-product-
 import { FooterComponent } from './template/partial/footer/footer.component';
 import { HeaderComponent } from './template/partial/header/header.component';
 import { ProductListingComponent } from './product/product-listing/product-listing.component';
+import { LoginComponent } from './user/login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ProductListingComponent } from './product/product-listing/product-listi
     FooterComponent,
     HeaderComponent,
     ProductListingComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
