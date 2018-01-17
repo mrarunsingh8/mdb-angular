@@ -20,6 +20,7 @@ import { FooterComponent } from './template/partial/footer/footer.component';
 import { HeaderComponent } from './template/partial/header/header.component';
 import { ProductListingComponent } from './product/product-listing/product-listing.component';
 import { LoginComponent } from './user/login/login.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { LoginComponent } from './user/login/login.component';
     HeaderComponent,
     ProductListingComponent,
     LoginComponent,
+    ProductDetailComponent,
   ],
   imports: [
     BrowserModule,
